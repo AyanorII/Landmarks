@@ -17,6 +17,7 @@
 		45E0929D2AB4781400D8D3CD /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E0929C2AB4781400D8D3CD /* CircleImage.swift */; };
 		45E0929F2AB4820100D8D3CD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E0929E2AB4820100D8D3CD /* MapView.swift */; };
 		45E092A12AB4877700D8D3CD /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 45E092A02AB4877600D8D3CD /* landmarkData.json */; };
+		45E092A52AB487EB00D8D3CD /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E092A42AB487EB00D8D3CD /* Landmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		45E0929C2AB4781400D8D3CD /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		45E0929E2AB4820100D8D3CD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		45E092A02AB4877600D8D3CD /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		45E092A42AB487EB00D8D3CD /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				45E092752AB474BA00D8D3CD /* Assets.xcassets */,
 				45E0929C2AB4781400D8D3CD /* CircleImage.swift */,
 				45E0929E2AB4820100D8D3CD /* MapView.swift */,
+				45E092A42AB487EB00D8D3CD /* Landmark.swift */,
 				45E092772AB474BA00D8D3CD /* Landmarks.entitlements */,
 				45E092782AB474BA00D8D3CD /* Preview Content */,
 			);
@@ -273,6 +276,7 @@
 				45E0929F2AB4820100D8D3CD /* MapView.swift in Sources */,
 				45E092722AB474B800D8D3CD /* LandmarksApp.swift in Sources */,
 				45E0929D2AB4781400D8D3CD /* CircleImage.swift in Sources */,
+				45E092A52AB487EB00D8D3CD /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

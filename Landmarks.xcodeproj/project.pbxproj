@@ -16,6 +16,7 @@
 		45E092902AB474BA00D8D3CD /* LandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E0928F2AB474BA00D8D3CD /* LandmarksUITestsLaunchTests.swift */; };
 		45E0929D2AB4781400D8D3CD /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E0929C2AB4781400D8D3CD /* CircleImage.swift */; };
 		45E0929F2AB4820100D8D3CD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E0929E2AB4820100D8D3CD /* MapView.swift */; };
+		45E092A12AB4877700D8D3CD /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 45E092A02AB4877600D8D3CD /* landmarkData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		45E0928F2AB474BA00D8D3CD /* LandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		45E0929C2AB4781400D8D3CD /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		45E0929E2AB4820100D8D3CD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		45E092A02AB4877600D8D3CD /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		45E092702AB474B800D8D3CD /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				45E092A02AB4877600D8D3CD /* landmarkData.json */,
 				45E092712AB474B800D8D3CD /* LandmarksApp.swift */,
 				45E092732AB474B800D8D3CD /* ContentView.swift */,
 				45E092752AB474BA00D8D3CD /* Assets.xcassets */,
@@ -241,6 +244,7 @@
 			files = (
 				45E0927A2AB474BA00D8D3CD /* Preview Assets.xcassets in Resources */,
 				45E092762AB474BA00D8D3CD /* Assets.xcassets in Resources */,
+				45E092A12AB4877700D8D3CD /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

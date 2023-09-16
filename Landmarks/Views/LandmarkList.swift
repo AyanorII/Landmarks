@@ -16,14 +16,19 @@ struct LandmarkList: View {
     
     var body: some View {
         NavigationView {
-            List(filteredLandmarks) { landmark in
-                NavigationLink {
-                    LandmarkDetail(landmark: landmark)
-                } label: {
-                    LandmarkRow(landmark: landmark)
+            List {
+                Toggle(isOn: $showFavoriteOnly) {
+                    Text("Favorites only")
                 }
+                ForEach(filteredLandmarks) { landmark in
+                    NavigationLink {
+                        LandmarkDetail(landmark: landmark)
+                    } label: {
+                        LandmarkRow(landmark: landmark)
+                    }
+                }
+                .navigationTitle("Landmarks")
             }
-            .navigationTitle("Landmarks")
         }
         
     }
